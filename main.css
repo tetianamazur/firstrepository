@@ -1,0 +1,299 @@
+* {
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+
+}
+
+body {
+
+    background-color: black;
+}
+
+section {
+    width: 35vw;
+    margin: auto;
+}
+
+.photo {
+    background-image: url(./img/index-main-after.webp);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -1.44px;
+}
+
+.main_text {
+    position: absolute;
+    left: 34px;
+    bottom: 15px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #5A5A5A 0%, #191414 26.21%);
+
+}
+
+.btn_list {
+
+    display: flex;
+    padding: 27px 55px;
+
+}
+
+.btn_item {
+
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-transform: uppercase;
+    width: 92px;
+    height: 26px;
+    border-radius: 20px;
+    border: 0.5px solid #D9D9D9;
+    background: #444;
+    margin-right: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    border-radius: 20px;
+    background: #1DB954;
+    border: 0.5px solid #1DB954;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    margin-left: 35px;
+}
+
+.Experience {
+    width: 40%;
+}
+
+.Experience {
+    margin-right: 55px;
+}
+
+
+
+h2 {
+    width: 100%;
+    border-bottom: 0.5px solid #9e9f9e71;
+    padding-bottom: 8px;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.work {
+    display: flex;
+    margin-top: 10px;
+
+
+}
+
+.work img {
+    width: 35px;
+    height: 35px;
+    margin-right: 12px;
+}
+
+.work_item_1 {
+    color: #FFF;
+    font-family: Circular Spotify Text;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 12px;
+    /* 133.333% */
+}
+
+.work_item_2 {
+    color: #FFF;
+    font-family: Circular Spotify Text;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12px;
+    /* 150% */
+}
+
+.work_item_3 {
+    color: #AAABAA;
+    font-family: Circular Spotify Text;
+    font-size: 7.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 160% */
+}
+
+.work_item_4 {
+    color: #FFF;
+    font-family: Circular Spotify Text;
+    font-size: 7.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    margin-top: 5px;
+    /* 133.333% */
+}
+
+span {
+    color: #ec0a8e;
+    font-weight: 900;
+}
+
+.Education {
+    width: 40%;
+    margin-right: 55px;
+}
+
+@media (max-width : 1200px) {
+    body {}
+
+    .btn_list {
+        flex-direction: column;
+    }
+
+    .btn_list a {
+        margin-bottom: 10px;
+    }
+
+    .info {
+        flex-direction: column;
+        width: 800px;
+    }
+
+    .work img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .work_item_1 {
+        font-size: 14px;
+    }
+
+    .work_item_2 {
+        font-size: 12px;
+    }
+
+    .work_item_3 {
+        font-size: 10px;
+    }
+
+    .work_item_4 {
+        font-size: 8px;
+    }
+}
+
+@media (max-width : 1040px) {
+
+    .btn_list {
+        flex-direction: column;
+    }
+
+    .btn_list a {
+        margin-bottom: 10px;
+    }
+
+    .info {
+        flex-direction: column;
+        width: 900px;
+
+    }
+
+    .work img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .work_item_1 {
+        font-size: 14px;
+    }
+
+    .work_item_2 {
+        font-size: 12px;
+    }
+
+    .work_item_3 {
+        font-size: 10px;
+    }
+
+    .work_item_4 {
+        font-size: 8px;
+    }
+}
+
+@media (max-width : 900px) {
+
+    .btn_list {
+        flex-direction: column;
+    }
+
+    .btn_list a {
+        margin-bottom: 10px;
+    }
+
+    .info {
+        flex-direction: column;
+        width: 600px;
+
+    }
+
+    .work img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .work_item_1 {
+        font-size: 16px;
+    }
+
+    .work_item_2 {
+        font-size: 14px;
+    }
+
+    .work_item_3 {
+        font-size: 12px;
+    }
+
+    .work_item_4 {
+        font-size: 10px;
+    }
+
+    .work {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.doc {
+    margin-top: 10px;
+}
